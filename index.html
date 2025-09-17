@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Procédure – Pansements</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #000;
+      display: flex;
+      flex-direction: column;
+    }
+    iframe {
+      flex: 1;
+      border: none;
+      width: 100%;
+    }
+    .actions {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    .actions a {
+      color: #fff;
+      text-decoration: none;
+      background: #007acc;
+      padding: 8px 14px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <!-- affichage du PDF -->
+  <iframe src="pansements-QR-code.pdf" title="Procédure Pansements"></iframe>
+
+  <!-- bouton télécharger -->
+  <div class="actions">
+    <a href="pansements-QR-code.pdf" download>Télécharger le PDF</a>
+  </div>
+</body>
+</html>
